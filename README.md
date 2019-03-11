@@ -1,7 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # apollo-boast
+To avoid code repitition use apollow boast
 `import { gql } from 'apollo-boast'`
+
+## Add WSYWG component
+`yarn add react-ckeditor-component`
 
 ## Available Scripts
 
