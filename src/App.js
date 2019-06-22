@@ -7,11 +7,12 @@ import Fragment from './components/fragment/Fragment';
 
 class App extends Component {
   render() {
+    const name = 'David';
     return (
       <div className="App">
         <h3>React Flux GraphQL</h3>
         Sinpu
-         <Fragment />
+         <Fragment name={name}/>
         <Signup />
         Editor
        <CKEditor />
