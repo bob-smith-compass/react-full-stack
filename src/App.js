@@ -3,15 +3,17 @@ import React, { Component } from 'react';
 import './App.css';
 import Signup from './components/signup/Signup';
 import CKEditor from 'react-ckeditor-component';
+import Fragment from './components/fragment/Fragment';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-       <h3>React Flux GraphQL</h3>
-       Sinpu
-       <Signup / >
-       Editor
+        <h3>React Flux GraphQL</h3>
+        Sinpu
+         <Fragment />
+        <Signup />
+        Editor
        <CKEditor />
       </div>
     );
