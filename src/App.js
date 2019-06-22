@@ -8,6 +8,7 @@ import Fragment from './components/fragment/Fragment';
 class App extends Component {
   render() {
     const names = ['David', 'Sean', 'Abel', 'Jacob'];
+    const last = 'Shams';
     return (
       <div className="App">
         <h3>React Flux GraphQL</h3>

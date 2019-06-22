@@ -6,7 +6,11 @@ export default function Fragment(props) {
     //     console.log()
     // }
 
+    const isLoading = true;
+
     return (
+        isLoading? <h1>Loading...</h1>: 
+
         <React.Fragment>
             <h3>Fragment</h3>
 
@@ -23,7 +27,8 @@ export default function Fragment(props) {
             <option value="mango">Mango</option>
           </select> */}
           <select name="" id="">
-              <option value={props.names}></option>
+              {/* <option value={props.names}></option> */}
+              <option value={props.last}>{props.last}</option>
           </select>
 
 
