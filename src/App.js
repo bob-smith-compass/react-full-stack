@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <h3>React Flux GraphQL</h3>
         Sinpu
-         <Fragment name={names}/>
+         <Fragment names={names} last={last}/>
         <Signup />
         Editor
        <CKEditor />
