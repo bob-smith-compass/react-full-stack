@@ -7,6 +7,10 @@ To avoid code repitition use apollow boast
 ## Add WSYWG component
 `yarn add react-ckeditor-component`
 
+## Font Awesome
+
+`yarn add --dev @fortawesome/fontawesome-free`
+
 ## Available Scripts
 
 In the project directory, you can run:
